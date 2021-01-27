@@ -70,16 +70,6 @@
   <center>
 <button class="btn btn-primary" style="width: 200px; outline: none;" id="submit_bruteforce">Iniciar</button>
  </center>
- 
-<script>
-$(document).ready(function(){
-    $('#submit_clear').click(function() {
-        document.getElementById('lista-users').value = "";
-        document.getElementById('lista-pass').value = "";
-    });
-});
-
-</script>
 
  </center>
 
