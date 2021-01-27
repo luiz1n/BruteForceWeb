@@ -35,11 +35,6 @@ try {
         $checker = bf::habborp($usuario, $senha);
     }
 
-    else if($hotel == "habblet") 
-    {
-        $checker = bf::habblet($usuario, $senha);
-    }
-
     else 
     {
         echo '<script> alert("hotel undefined") </script> ';
